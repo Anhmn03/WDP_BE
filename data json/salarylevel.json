@@ -1,0 +1,24 @@
+[
+  {
+    "_id": { "$oid": "665e85002fc4a9c8d8d50001" },
+    "name": "Junior",
+    "monthly_salary": 12000000,
+    "daily_salary": 545455,
+    "status": "active",
+    "created_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "updated_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "created_at": { "$date": "2025-04-01T08:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-01T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "665e85002fc4a9c8d8d50002" },
+    "name": "Senior",
+    "monthly_salary": 20000000,
+    "daily_salary": 909091,
+    "status": "active",
+    "created_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "updated_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "created_at": { "$date": "2025-04-10T08:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-01T08:00:00.000Z" }
+  }
+]

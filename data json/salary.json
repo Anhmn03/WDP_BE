@@ -1,0 +1,38 @@
+[
+  {
+    "_id": { "$oid": "665e7a8f2fc4a9c8d8d01201" },
+    "user": { "$oid": "665e7a8f2fc4a9c8d8d00001" },
+    "valid_workdays": 20,
+    "invalid_workdays": 2,
+    "salary_amount": 15000000,
+    "month": 5,
+    "created_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "updated_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "created_at": { "$date": "2025-05-01T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-10T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "665e7a8f2fc4a9c8d8d01202" },
+    "user": { "$oid": "665e7a8f2fc4a9c8d8d00003" },
+    "valid_workdays": 22,
+    "invalid_workdays": 0,
+    "salary_amount": 18000000,
+    "month": 5,
+    "created_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "updated_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "created_at": { "$date": "2025-05-01T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-10T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "665e7a8f2fc4a9c8d8d01203" },
+    "user": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "valid_workdays": 22,
+    "invalid_workdays": 0,
+    "salary_amount": 18000000,
+    "month": 5,
+    "created_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "updated_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "created_at": { "$date": "2025-05-01T00:00:00.000Z" },
+    "updated_at": { "$date": "2025-05-10T00:00:00.000Z" }
+  }
+]

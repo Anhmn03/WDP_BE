@@ -1,0 +1,29 @@
+[
+  {
+    "_id": { "$oid": "665e84002fc4a9c8d8d40001" },
+    "user_id": { "$oid": "665e7a8f2fc4a9c8d8d00001" },
+    "salary_id": { "$oid": "665e7a8f2fc4a9c8d8d01201" },
+    "old_salaryCoefficient": 2.5,
+    "old_monthlySalary": 15000000,
+    "changed_at": { "$date": "2025-04-01T00:00:00.000Z" },
+    "changed_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" }
+  },
+  {
+    "_id": { "$oid": "665e84002fc4a9c8d8d40002" },
+    "user_id": { "$oid": "665e7a8f2fc4a9c8d8d00003" },
+    "salary_id": { "$oid": "665e7a8f2fc4a9c8d8d01202" },
+    "old_salaryCoefficient": 3.0,
+    "old_monthlySalary": 18000000,
+    "changed_at": { "$date": "2025-04-15T00:00:00.000Z" },
+    "changed_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" }
+  },
+  {
+    "_id": { "$oid": "665e84002fc4a9c8d8d40003" },
+    "user_id": { "$oid": "665e7a8f2fc4a9c8d8d00002" },
+    "salary_id": { "$oid": "665e7a8f2fc4a9c8d8d01203" },
+    "old_salaryCoefficient": 3.0,
+    "old_monthlySalary": 18000000,
+    "changed_at": { "$date": "2025-04-15T00:00:00.000Z" },
+    "changed_by": { "$oid": "665e7a8f2fc4a9c8d8d00002" }
+  }
+]

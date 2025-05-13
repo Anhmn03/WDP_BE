@@ -1,0 +1,17 @@
+[
+  {
+    "_id": { "$oid": "60b8d5f5f65f7f1a2d0b2901" },
+    "check_in_time": { "$date": "2025-05-01T09:00:00.000Z" },
+    "check_out_time": { "$date": "2025-05-01T18:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "60b8d5f5f65f7f1a2d0b2902" },
+    "check_in_time": { "$date": "2025-05-01T08:30:00.000Z" },
+    "check_out_time": { "$date": "2025-05-01T17:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "60b8d5f5f65f7f1a2d0b2903" },
+    "check_in_time": { "$date": "2025-05-01T10:00:00.000Z" },
+    "check_out_time": { "$date": "2025-05-01T19:00:00.000Z" }
+  }
+]
