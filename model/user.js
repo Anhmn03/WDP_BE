@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
   salary_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Salary' },
   role: { type: String, enum: ['admin', 'manager', 'staff', 'user'], default: 'user' }, // để check lại các role đã
   reminder_time: { type: Date },
-  age: { type: Number },
+  dob: { type: Date },
   gender: { type: String, enum: ['male', 'female', 'other'] },
   created_by: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   updated_by: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
