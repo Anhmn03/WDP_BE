@@ -4,7 +4,7 @@ const userAttendanceSchema = new mongoose.Schema({
   time: { type: Date, required: true }, // Ngày giờ điểm danh
   type: { 
     type: String, 
-    enum: ['check_in', 'check_out', 'leave', 'late', 'absent'], 
+    enum: ['check_in', 'check_out'], 
     required: true 
   },
   user_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },

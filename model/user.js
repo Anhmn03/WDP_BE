@@ -1,15 +1,16 @@
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
+  name: { type: String, required: true, unique: true},// đăng nhập bằng name
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   phone_number: { type: String },
-  status: { type: String, enum: ['active', 'inactive', 'banned'], default: 'active' },
+  address: { type: String },
+ status: { type: String, enum: ['active', 'inactive', 'banned'], default: 'active' },
   position: { type: String },
   department_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Department' },
   salary_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Salary' },
-  role: { type: String, enum: ['admin', 'manager', 'staff', 'user'], default: 'user' },
+  role: { type: String, enum: ['admin', 'manager', 'staff', 'user'], default: 'user' }, // để check lại các role đã
   reminder_time: { type: Date },
   age: { type: Number },
   gender: { type: String, enum: ['male', 'female', 'other'] },
