@@ -10,4 +10,4 @@ const departmentSchema = new mongoose.Schema({
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
 });
 
-module.exports = mongoose.model("Department", departmentSchema, "Department");
+module.exports = mongoose.model("Department", departmentSchema, "department");

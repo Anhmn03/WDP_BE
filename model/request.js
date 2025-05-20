@@ -11,4 +11,4 @@ const requestSchema = new mongoose.Schema({
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
 });
 
-module.exports = mongoose.model("Request", requestSchema, "Request");
+module.exports = mongoose.model("Request", requestSchema, "request");

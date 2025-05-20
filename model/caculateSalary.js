@@ -10,4 +10,4 @@ const salarySchema = new mongoose.Schema({
   updated_by: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 }, { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
-module.exports = mongoose.model("Salary", salarySchema, "Salary");
+module.exports = mongoose.model("Salary", salarySchema, "caculateSalary");

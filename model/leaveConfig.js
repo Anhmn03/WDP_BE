@@ -11,4 +11,4 @@ const leaveConfigSchema = new mongoose.Schema({
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
 });
 
-module.exports = mongoose.model("LeaveConfig", leaveConfigSchema, "LeaveConfig");
+module.exports = mongoose.model("LeaveConfig", leaveConfigSchema, "leaveConfig");

@@ -17,4 +17,4 @@ const leaveRequestSchema = new mongoose.Schema({
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
 });
 
-module.exports = mongoose.model("LeaveRequest", leaveRequestSchema, "LeaveRequest");
+module.exports = mongoose.model("LeaveRequest", leaveRequestSchema, "leaveRequest");

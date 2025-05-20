@@ -10,4 +10,4 @@ const settingsSchema = new mongoose.Schema({
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
 });
 
-module.exports = mongoose.model("Setting", settingsSchema, "Setting");
+module.exports = mongoose.model("Setting", settingsSchema, "settings");
